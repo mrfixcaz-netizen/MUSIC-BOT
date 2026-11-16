@@ -106,9 +106,9 @@ def fmt_dur(sec, live=False) -> str:
 def link_row():
     row = []
     if CHANNEL_URL:
-        row.append(InlineKeyboardButton("📢 Channel", url=https://t.me/THESUKOONLYRIC"))
+        row.append(InlineKeyboardButton("📢 Channel", url="https://t.me/THESUKOONLYRIC"))
     if SUPPORT_URL:
-        row.append(InlineKeyboardButton("💬 Support", url=https://t.me/MustFixcaz"))
+        row.append(InlineKeyboardButton("💬 Support", url="https://t.me/MustFixcaz"))
     return row
 
 
