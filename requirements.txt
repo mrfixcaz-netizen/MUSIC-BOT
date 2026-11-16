@@ -1,0 +1,6 @@
+pyrogram
+tgcrypto
+pytgcalls
+python-dotenv
+yt-dlp
+anthropic
