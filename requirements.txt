@@ -1,6 +1,7 @@
 pyrogram
 tgcrypto
 pytgcalls
-python-dotenv
 yt-dlp
+python-dotenv
+requests
 anthropic
