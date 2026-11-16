@@ -58,7 +58,7 @@ OWNER_IDS = {
 # BOT = commands sunta hai + buttons bhejta hai | ASSISTANT = voice chat mein gaana bajata hai
 bot = Client("music_bot", api_id=32118715, api_hash="466c3df10f4b3326234558c231d0e020", bot_token="9180281383:AAGsS-4Qbi7Z-FjOD8Gbi6jd9oro1zsEvf8",
              parse_mode=ParseMode.HTML)
-assistant = Client("assistant", api_id=32118715, api_hash=466c3df10f4b3326234558c231d0e020)
+assistant = Client("assistant", api_id=32118715, api_hash="466c3df10f4b3326234558c231d0e020")
 call = PyTgCalls(assistant)
 ai = AsyncAnthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
 
