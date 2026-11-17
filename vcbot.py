@@ -32,8 +32,8 @@ loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 
 # ---------------- CONFIG (.env se) ----------------
-API_ID = int(os.environ["32118715"])
-API_HASH = os.environ["466c3df10f4b3326234558c231d0e020"]
+API_HASH = os.environ["API_HASH"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 BOT_TOKEN = os.environ["9180281383:AAGsS-4Qbi7Z-FjOD8Gbi6jd9oro1zsEvf8"]
 CHANNEL_URL = os.getenv("https://t.me/THESUKOONLYRIC", "").strip()
 SUPPORT_URL = os.getenv("https://t.me/MustFixcaz", "").strip()
