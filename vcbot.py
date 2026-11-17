@@ -34,7 +34,7 @@ asyncio.set_event_loop(loop)
 # ---------------- CONFIG (.env se) ----------------
 API_HASH = os.environ["API_HASH"]
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-BOT_TOKEN = os.environ["9180281383:AAGsS-4Qbi7Z-FjOD8Gbi6jd9oro1zsEvf8"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_URL = os.getenv("https://t.me/THESUKOONLYRIC", "").strip()
 SUPPORT_URL = os.getenv("https://t.me/MustFixcaz", "").strip()
 COOKIES_FILE = os.getenv("COOKIES_FILE", "").strip()            # YouTube cookies (server ke liye)
